@@ -139,7 +139,7 @@ export class TutorDetailsComponent implements OnInit {
   }
   getUrlAnimais(){
     if(Number(this.id)){
-      return `http://localhost:8080/animal/tutor/${Number(this.id)}`
+      return `http://npvet.duckdns.org:8080/animal/tutor/${Number(this.id)}`
     }else{
       return 'null'
     }

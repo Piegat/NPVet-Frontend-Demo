@@ -37,7 +37,7 @@ export class TutorListComponent {
   }
 
   apiUrlPath(){
-    return 'http://localhost:8080/tutor';  
+    return 'http://npvet.duckdns.org:8080/tutor';  
   }
   callHeaders(){
     let tableHeaders : Header[] = [];

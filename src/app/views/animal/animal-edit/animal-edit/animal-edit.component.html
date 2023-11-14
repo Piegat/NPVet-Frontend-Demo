@@ -87,7 +87,7 @@
   <ng-template #content let-c="close" let-d="dismiss">
     <div class="modal-body">
       <app-table [title]="'Tutores'" [headers]="callHeadersTutor()"
-        [urlEspecifica]="'http://localhost:8080/tutor/all/ativos'" [entidade]="'Tutor'" [showToggle]="false"
+        [urlEspecifica]="'http://npvet.duckdns.org:8080/tutor/all/ativos'" [entidade]="'Tutor'" [showToggle]="false"
         [showEdit]="false" [isModal]="true" [showAtivoFilter]="false" (detailsClick)="selecionarTutor($event)"></app-table>
     </div>
     <div class="modal-footer">

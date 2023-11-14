@@ -7,7 +7,7 @@ import { Consulta } from 'src/app/models/consulta/consulta';
   providedIn: 'root',
 })
 export class ConsultaService {
-  baseURL: string = 'http://localhost:8080/consulta';
+  baseURL: string = 'http://npvet.duckdns.org:8080/consulta';
   http = inject(HttpClient);
 
   constructor() {}

@@ -10,7 +10,7 @@ import { Anamnese } from 'src/app/models/anamnese/anamnese';
 })
 export class AnamneseService {
 
-  private baseUrl = 'http://localhost:8080/anamnese';
+  private baseUrl = 'http://npvet.duckdns.org:8080/anamnese';
 
   constructor(private http: HttpClient) { }
 

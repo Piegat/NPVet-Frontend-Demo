@@ -36,7 +36,7 @@ export class ConsultaListComponent {
   }
 
   apiUrlPath(){
-    return 'http://localhost:8080/consulta';  
+    return 'http://npvet.duckdns.org:8080/consulta';  
   }
   callHeaders(){
     let tableHeaders : Header[] = [];

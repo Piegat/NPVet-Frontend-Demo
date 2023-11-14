@@ -64,7 +64,7 @@ export class UsuarioEditComponent implements OnInit {
 
   // Table Component Logic
   apiUrlPath() {
-    return 'http://localhost:8080/consulta';
+    return 'http://npvet.duckdns.org:8080/consulta';
   }
 
   callHeaders() {

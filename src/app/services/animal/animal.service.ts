@@ -8,7 +8,7 @@ import { Animal } from 'src/app/models/animal/animal';
 })
 export class AnimalService {
 
-  baseURL: string = 'http://localhost:8080/animal'
+  baseURL: string = 'http://npvet.duckdns.org:8080/animal'
   http = inject(HttpClient);
 
   constructor() { }

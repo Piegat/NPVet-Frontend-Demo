@@ -7,7 +7,7 @@ import { Tutor } from 'src/app/models/tutor/tutor';
   providedIn: 'root',
 })
 export class TutorService {
-  API: string = 'http://localhost:8080/tutor' ;
+  API: string = 'http://npvet.duckdns.org:8080/tutor' ;
   http = inject(HttpClient);
   constructor() {}
   getById(id: number): Observable<Tutor> {

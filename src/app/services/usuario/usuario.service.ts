@@ -8,7 +8,7 @@ import { Usuario } from 'src/app/models/usuario/usuario';
 })
 export class UsuarioService {
 
-  API: string = 'http://localhost:8080/usuario';
+  API: string = 'http://npvet.duckdns.org:8080/usuario';
   http = inject(HttpClient);
 
   

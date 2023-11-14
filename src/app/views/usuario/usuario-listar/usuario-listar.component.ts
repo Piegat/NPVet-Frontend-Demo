@@ -12,7 +12,7 @@ export class UsuarioListarComponent {
 
   // Table Configuarations
   apiUrlPath(){
-    return 'http://localhost:8080/usuario';  
+    return 'http://npvet.duckdns.org:8080/usuario';  
   }
   callHeaders(){
     let tableHeaders : Header[] = [];

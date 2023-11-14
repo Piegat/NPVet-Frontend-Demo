@@ -37,7 +37,7 @@ export class AnimalListComponent {
   }
 
   apiUrlPath(){
-    return 'http://localhost:8080/animal';  
+    return 'http://npvet.duckdns.org:8080/animal';  
   }
   callHeaders(){
     let tableHeaders : Header[] = [];

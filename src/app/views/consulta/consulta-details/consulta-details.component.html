@@ -112,7 +112,7 @@
     </div>
     <div class="modal-body">
         <app-table [title]="'Animais Cadastrados'" [isModal]="true" [headers]="callAnimalHeaders()"
-            [apiUrl]="'http://localhost:8080/animal'" [entidade]="'Animal'" [showToggle]="false" [showEdit]="false"
+            [apiUrl]="'http://npvet.duckdns.org:8080/animal'" [entidade]="'Animal'" [showToggle]="false" [showEdit]="false"
             [showAtivoFilter]="false" (detailsClick)="definirAnimal($event)"></app-table>
     </div>
     <div class="modal-footer">
@@ -128,7 +128,7 @@
     </div>
     <div class="modal-body">
         <app-table [title]="'Veterinários Cadastrados'" [isModal]="true" [headers]="callVeterinarioHeaders()"
-            [urlEspecifica]="'http://localhost:8080/usuario/veterinarios'" [entidade]="'Usuario'" [showToggle]="false"
+            [urlEspecifica]="'http://npvet.duckdns.org:8080/usuario/veterinarios'" [entidade]="'Usuario'" [showToggle]="false"
             [showEdit]="false" [showAtivoFilter]="false" (detailsClick)="definirVeterinario($event)"></app-table>
     </div>
     <div class="modal-footer">

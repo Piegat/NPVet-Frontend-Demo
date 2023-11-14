@@ -8,7 +8,7 @@ import { ExameFisico } from 'src/app/models/exame-fisico/exame-fisico';
   providedIn: 'root'
 })
 export class ExameFisicoService {
-  baseURL: string = 'http://localhost:8080/examefisico'
+  baseURL: string = 'http://npvet.duckdns.org:8080/examefisico'
   http = inject(HttpClient);
 
   constructor() { }
